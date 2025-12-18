@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.myenv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model weights
+models/*.pt
+models/*.onnx
+models/*.weights
+
+# Data
+# data/
+# logs/
+# *.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuration (if contains sensitive data)
+# config.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.temp

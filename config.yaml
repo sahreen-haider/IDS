@@ -1,0 +1,82 @@
+# Intrusion Detection System Configuration
+
+# Camera Settings
+camera:
+  # Android phone IP webcam URL (update with your phone's IP)
+  # url: "http://192.0.0.4:8080/video"
+  # Alternative: use 0 for built-in webcam
+  url: 0
+  
+  # Camera resolution
+  width: 1280
+  height: 720
+  
+  # FPS limit
+  fps: 30
+
+# YOLO Model Settings
+model:
+  # Model path (relative to project root)
+  weights: "models/yolov8n.pt"
+  
+  # Confidence threshold (0.0 - 1.0)
+  confidence_threshold: 0.5
+  
+  # IOU threshold for NMS
+  iou_threshold: 0.45
+  
+  # Device: 'cuda', 'cpu', or 'mps'
+  device: "cpu"
+
+# Detection Settings
+detection:
+  # Classes to detect (COCO dataset class names)
+  target_classes:
+    - "person"      # Humans
+    - "dog"         # Animals
+    - "cat"
+    - "bird"
+    - "backpack"    # Unidentified objects
+    - "handbag"
+    - "suitcase"
+  
+  # Cooldown period between alerts (seconds)
+  alert_cooldown: 30
+  
+  # Minimum detection size (% of frame)
+  min_detection_size: 0.01
+
+# Alert Settings
+alerts:
+  # Enable different alert types
+  sound: true
+  save_image: true
+  save_video: false
+  console_log: true
+  
+  # Save location for captured evidence
+  save_path: "data/detections"
+  
+  # Video recording duration (seconds) when intrusion detected
+  video_duration: 10
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "logs/ids.log"
+  max_size_mb: 10
+  backup_count: 5
+
+# Display Settings
+display:
+  # Show live feed with detections
+  show_window: true
+  
+  # Draw bounding boxes
+  draw_boxes: true
+  
+  # Draw confidence scores
+  draw_confidence: true
+  
+  # Window name
+  window_name: "IDS - Intrusion Detection System"
