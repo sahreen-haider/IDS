@@ -5,7 +5,7 @@ torch
 torchvision
 
 # Image processing
-numpy
+numpy==1.26.4
 pillow
 
 # Configuration

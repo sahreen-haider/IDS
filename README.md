@@ -42,12 +42,31 @@ pip install -r requirements.txt
    - Set your Android phone IP address
    - Configure detection classes and alert preferences
 
-## Android Camera Setup
+## Android Camera Setup (IP Webcam)
 
-1. Install IP Webcam app on your Android phone
-2. Start the server in the app
-3. Note the IP address (e.g., http://192.168.1.100:8080)
-4. Update the `camera_url` in `config.yaml`
+1. Install the "IP Webcam" app on your Android phone (by Pavel Khlebovich).
+2. Connect your phone and your Mac to the same Wi‑Fi network.
+3. Open IP Webcam and start the server; note the IP shown (e.g., `http://192.168.1.100:8080`).
+4. Use one of these endpoints in the config:
+    - MJPEG stream: `http://<PHONE_IP>:8080/video` (preferred)
+    - MJPEG stream (alt): `http://<PHONE_IP>:8080/video.mjpg`
+    - Snapshot (JPEG): `http://<PHONE_IP>:8080/shot.jpg`
+5. Update `camera.url` in [config.yaml](config.yaml) to the chosen endpoint.
+
+Example:
+
+```
+camera:
+   url: "http://192.168.1.100:8080/video"
+   width: 1280
+   height: 720
+```
+
+### Troubleshooting
+- If the stream fails to open, try `video.mjpg` or `shot.jpg`.
+- Ensure the app is running and both devices share the same network.
+- Some networks block multicast; try another Wi‑Fi or mobile hotspot.
+- Reduce resolution and FPS in the app if frames drop.
 
 ## Usage
 

@@ -3,9 +3,13 @@
 # Camera Settings
 camera:
   # Android phone IP webcam URL (update with your phone's IP)
-  # url: "http://192.0.0.4:8080/video"
+  # Valid endpoints:
+  #   - "http://<PHONE_IP>:8080/video"       # MJPEG stream (preferred)
+  #   - "http://<PHONE_IP>:8080/video.mjpg"  # MJPEG stream (alt)
+  #   - "http://<PHONE_IP>:8080/shot.jpg"    # Snapshot (fallback)
+  url: "http://66.77.88.99:8080"
   # Alternative: use 0 for built-in webcam
-  url: 0
+  # url: 0
   
   # Camera resolution
   width: 1280
