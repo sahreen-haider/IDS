@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDS - Intrusion Detection System</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        [x-cloak] { display: none !important; }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #000;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100" x-data="idsApp()" x-init="init()">
+    
+    <!-- Header -->
+    <nav class="bg-gray-800 border-b border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <i class="fas fa-shield-alt text-blue-500 text-2xl mr-3"></i>
+                    <h1 class="text-xl font-bold">Intrusion Detection System</h1>
+                </div>
+                <div class="flex items-center gap-4">
+                    <!-- Status Badge -->
+                    <div class="flex items-center gap-2">
+                        <div class="relative">
+                            <div class="w-3 h-3 rounded-full" :class="systemStatus.running ? 'bg-green-500 animate-pulse' : 'bg-red-500'"></div>
+                        </div>
+                        <span class="text-sm" x-text="systemStatus.running ? 'Active' : 'Stopped'"></span>
+                    </div>
+                    
+                    <!-- Control Buttons -->
+                    <button @click="toggleDetection()" 
+                            class="px-4 py-2 rounded-lg font-medium transition"
+                            :class="systemStatus.running ? 'bg-red-600 hover:bg-red-700' : 'bg-green-600 hover:bg-green-700'">
+                        <i class="fas" :class="systemStatus.running ? 'fa-stop' : 'fa-play'"></i>
+                        <span x-text="systemStatus.running ? 'Stop' : 'Start'"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        
+        <!-- Stats Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+            <!-- FPS -->
+            <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-400 text-sm">Camera FPS</p>
+                        <p class="text-2xl font-bold text-blue-400" x-text="stats.fps || '0'"></p>
+                    </div>
+                    <i class="fas fa-video text-blue-500 text-2xl"></i>
+                </div>
+            </div>
+            
+            <!-- Detection FPS -->
+            <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-400 text-sm">Detection FPS</p>
+                        <p class="text-2xl font-bold text-green-400" x-text="stats.detection_fps || '0'"></p>
+                    </div>
+                    <i class="fas fa-radar text-green-500 text-2xl"></i>
+                </div>
+            </div>
+            
+            <!-- In Perimeter -->
+            <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-400 text-sm">In Perimeter</p>
+                        <p class="text-2xl font-bold text-red-400" x-text="stats.in_perimeter || '0'"></p>
+                    </div>
+                    <i class="fas fa-exclamation-triangle text-red-500 text-2xl"></i>
+                </div>
+            </div>
+            
+            <!-- Total Alerts -->
+            <div class="bg-gray-800 rounded-lg p-4 border border-gray-700">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <p class="text-gray-400 text-sm">Total Alerts</p>
+                        <p class="text-2xl font-bold text-yellow-400" x-text="alertStats.total_alerts || '0'"></p>
+                    </div>
+                    <i class="fas fa-bell text-yellow-500 text-2xl"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            
+            <!-- Left Column: Video Feed -->
+            <div class="lg:col-span-2 space-y-6">
+                
+                <!-- Live Video -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <h2 class="text-lg font-semibold mb-4 flex items-center">
+                        <i class="fas fa-camera mr-2 text-blue-500"></i>
+                        Live Feed
+                    </h2>
+                    <div class="video-container rounded-lg overflow-hidden border-2 border-gray-700">
+                        <img :src="videoUrl" alt="Live Feed" class="w-full" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'640\' height=\'480\'%3E%3Crect fill=\'%23111\' width=\'640\' height=\'480\'/%3E%3Ctext fill=\'%23666\' x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\' font-family=\'Arial\' font-size=\'20\'%3ENo Signal%3C/text%3E%3C/svg%3E'">
+                    </div>
+                    <div class="mt-4 flex items-center justify-between text-sm text-gray-400">
+                        <span>Detection: <span :class="stats.in_perimeter > 0 ? 'text-red-400 font-bold' : 'text-green-400'" x-text="stats.in_perimeter > 0 ? stats.in_perimeter + ' objects in zone' : 'Clear'"></span></span>
+                        <span x-show="stats.outside_perimeter > 0" class="text-yellow-400">Outside: <span x-text="stats.outside_perimeter"></span></span>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <div class="bg-gray-800 rounded-lg border border-gray-700">
+                    <div class="border-b border-gray-700">
+                        <nav class="flex space-x-4 px-6" aria-label="Tabs">
+                            <button @click="activeTab = 'alerts'" 
+                                    :class="activeTab === 'alerts' ? 'border-blue-500 text-blue-500' : 'border-transparent text-gray-400 hover:text-gray-300'"
+                                    class="py-4 px-1 border-b-2 font-medium text-sm transition">
+                                <i class="fas fa-bell mr-2"></i>Alerts
+                            </button>
+                            <button @click="activeTab = 'config'" 
+                                    :class="activeTab === 'config' ? 'border-blue-500 text-blue-500' : 'border-transparent text-gray-400 hover:text-gray-300'"
+                                    class="py-4 px-1 border-b-2 font-medium text-sm transition">
+                                <i class="fas fa-cog mr-2"></i>Configuration
+                            </button>
+                            <button @click="activeTab = 'perimeter'" 
+                                    :class="activeTab === 'perimeter' ? 'border-blue-500 text-blue-500' : 'border-transparent text-gray-400 hover:text-gray-300'"
+                                    class="py-4 px-1 border-b-2 font-medium text-sm transition">
+                                <i class="fas fa-draw-polygon mr-2"></i>Perimeter
+                            </button>
+                        </nav>
+                    </div>
+
+                    <div class="p-6">
+                        <!-- Alerts Tab -->
+                        <div x-show="activeTab === 'alerts'" x-cloak>
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="font-semibold">Recent Alerts</h3>
+                                <button @click="clearAllAlerts()" class="text-sm text-red-400 hover:text-red-300">
+                                    <i class="fas fa-trash mr-1"></i>Clear All
+                                </button>
+                            </div>
+                            <div class="space-y-3 max-h-96 overflow-y-auto">
+                                <template x-for="alert in alerts" :key="alert.id">
+                                    <div class="bg-gray-700 rounded-lg p-4 flex items-center justify-between">
+                                        <div class="flex-1">
+                                            <div class="flex items-center gap-2 mb-1">
+                                                <span class="px-2 py-1 rounded text-xs font-medium"
+                                                      :class="{
+                                                          'bg-red-900 text-red-300': alert.intrusion_type === 'human',
+                                                          'bg-yellow-900 text-yellow-300': alert.intrusion_type === 'animal',
+                                                          'bg-blue-900 text-blue-300': alert.intrusion_type === 'object'
+                                                      }"
+                                                      x-text="alert.intrusion_type.toUpperCase()">
+                                                </span>
+                                                <span class="text-sm text-gray-400" x-text="new Date(alert.timestamp).toLocaleString()"></span>
+                                            </div>
+                                            <p class="text-sm text-gray-300" x-text="alert.detection_count + ' object(s) detected'"></p>
+                                        </div>
+                                        <button @click="deleteAlert(alert.id)" class="text-gray-400 hover:text-red-400 ml-4">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </template>
+                                <div x-show="alerts.length === 0" class="text-center text-gray-500 py-8">
+                                    No alerts yet
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Configuration Tab -->
+                        <div x-show="activeTab === 'config'" x-cloak>
+                            <div class="space-y-4">
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Frame Skip</label>
+                                    <input type="range" min="1" max="5" x-model="config.detection.frame_skip" 
+                                           class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer">
+                                    <div class="flex justify-between text-xs text-gray-400 mt-1">
+                                        <span>Every frame</span>
+                                        <span x-text="'Skip ' + config.detection.frame_skip"></span>
+                                        <span>Every 5th</span>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Inference Size</label>
+                                    <select x-model="config.detection.inference_size" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-3 py-2">
+                                        <option value="320">320 (Fastest)</option>
+                                        <option value="416">416 (Balanced)</option>
+                                        <option value="640">640 (Best Quality)</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label class="block text-sm font-medium mb-2">Confidence Threshold</label>
+                                    <input type="range" min="0.3" max="0.9" step="0.05" x-model="config.model.confidence_threshold" 
+                                           class="w-full h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer">
+                                    <div class="text-center text-sm text-gray-400 mt-1" x-text="config.model.confidence_threshold"></div>
+                                </div>
+
+                                <button @click="saveConfig()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                                    <i class="fas fa-save mr-2"></i>Save Configuration
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Perimeter Tab -->
+                        <div x-show="activeTab === 'perimeter'" x-cloak>
+                            <div class="space-y-4">
+                                <div class="flex items-center justify-between">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" x-model="config.detection.enable_perimeter" 
+                                               class="mr-2 w-4 h-4 rounded bg-gray-700 border-gray-600">
+                                        <span>Enable Perimeter Detection</span>
+                                    </label>
+                                </div>
+                                
+                                <div class="bg-gray-700 rounded-lg p-4">
+                                    <p class="text-sm text-gray-300 mb-2">Preset Zones:</p>
+                                    <div class="grid grid-cols-2 gap-2">
+                                        <button @click="setPerimeter('full')" class="bg-gray-600 hover:bg-gray-500 px-3 py-2 rounded text-sm">Full Frame</button>
+                                        <button @click="setPerimeter('center')" class="bg-gray-600 hover:bg-gray-500 px-3 py-2 rounded text-sm">Center</button>
+                                        <button @click="setPerimeter('bottom')" class="bg-gray-600 hover:bg-gray-500 px-3 py-2 rounded text-sm">Bottom Half</button>
+                                        <button @click="setPerimeter('door')" class="bg-gray-600 hover:bg-gray-500 px-3 py-2 rounded text-sm">Doorway</button>
+                                    </div>
+                                </div>
+
+                                <button @click="savePerimeter()" class="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-lg transition">
+                                    <i class="fas fa-check mr-2"></i>Apply Perimeter
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Sidebar -->
+            <div class="space-y-6">
+                
+                <!-- System Info -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <h3 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-info-circle mr-2 text-blue-500"></i>
+                        System Status
+                    </h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Detection:</span>
+                            <span :class="systemStatus.running ? 'text-green-400' : 'text-red-400'" x-text="systemStatus.running ? 'Running' : 'Stopped'"></span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Camera:</span>
+                            <span :class="systemStatus.camera_connected ? 'text-green-400' : 'text-red-400'" x-text="systemStatus.camera_connected ? 'Connected' : 'Disconnected'"></span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Perimeter:</span>
+                            <span :class="config.detection?.enable_perimeter ? 'text-green-400' : 'text-gray-400'" x-text="config.detection?.enable_perimeter ? 'Enabled' : 'Disabled'"></span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Frame Skip:</span>
+                            <span x-text="config.detection?.frame_skip || '-'"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alert Statistics -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <h3 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-chart-bar mr-2 text-yellow-500"></i>
+                        Alert Statistics
+                    </h3>
+                    <div class="space-y-3 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">Total Alerts:</span>
+                            <span class="font-bold" x-text="alertStats.total_alerts || '0'"></span>
+                        </div>
+                        <template x-if="alertStats.alerts_by_type">
+                            <div class="space-y-2">
+                                <template x-for="(count, type) in alertStats.alerts_by_type" :key="type">
+                                    <div class="flex justify-between">
+                                        <span class="text-gray-400 capitalize" x-text="type + ':'"></span>
+                                        <span x-text="count"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
+                        <div class="flex justify-between pt-2 border-t border-gray-700">
+                            <span class="text-gray-400">Last Alert:</span>
+                            <span class="text-xs" x-text="alertStats.last_alert || 'None'"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="bg-gray-800 rounded-lg p-6 border border-gray-700">
+                    <h3 class="font-semibold mb-4 flex items-center">
+                        <i class="fas fa-bolt mr-2 text-purple-500"></i>
+                        Quick Actions
+                    </h3>
+                    <div class="space-y-2">
+                        <button @click="refreshData()" class="w-full bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded-lg transition text-sm">
+                            <i class="fas fa-sync mr-2"></i>Refresh Data
+                        </button>
+                        <button @click="window.open(apiUrl + '/docs', '_blank')" class="w-full bg-gray-700 hover:bg-gray-600 text-white py-2 px-4 rounded-lg transition text-sm">
+                            <i class="fas fa-book mr-2"></i>API Docs
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

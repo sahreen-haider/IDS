@@ -1,0 +1,30 @@
+# FastAPI and server
+fastapi[standard]
+uvicorn[standard]
+python-multipart
+websockets
+
+# Core ML/CV libraries
+opencv-python
+ultralytics
+torch
+torchvision
+
+# Image processing
+numpy
+pillow
+
+# Configuration
+PyYAML
+
+# Networking
+requests
+
+# Utilities
+python-dotenv
+
+# Logging
+colorlog
+
+# Notifications
+plyer

@@ -1,0 +1,1703 @@
+2025-12-18 19:00:45,576 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 19:00:45,576 - camera - INFO - Connecting to Android camera at http://192.168.1.100:8080/video
+2025-12-18 19:02:38,756 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 19:02:38,756 - camera - INFO - Connecting to Android camera at https://192.0.0.4:8080/video
+2025-12-18 19:03:05,596 - camera - ERROR - Failed to open camera
+2025-12-18 19:03:05,596 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-18 19:03:26,230 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 19:03:26,230 - camera - INFO - Connecting to Android camera at http://192.0.0.4:8080/video
+2025-12-18 19:04:56,184 - camera - ERROR - Failed to open camera
+2025-12-18 19:04:56,184 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-18 19:06:50,286 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 19:06:50,286 - camera - INFO - Connecting to local camera device 0
+2025-12-18 19:06:50,711 - camera - INFO - Camera connected successfully
+2025-12-18 19:06:50,711 - __main__ - INFO - Camera resolution: (1280, 720)
+2025-12-18 19:06:50,711 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-18 19:06:52,482 - detector - INFO - Model loaded successfully on cpu
+2025-12-18 19:07:37,379 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:37,379 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:37,493 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:37,493 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:37,595 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:37,595 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:37,697 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:37,697 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:37,799 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:37,799 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:37,901 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:37,901 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,002 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,002 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,103 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,104 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,206 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,207 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,308 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,309 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,411 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,411 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,513 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,513 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,616 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,616 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,716 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,716 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,818 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,818 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:38,918 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:38,918 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,019 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,019 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,120 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,120 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,221 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,221 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,321 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,322 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,423 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,423 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,524 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,524 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,625 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,625 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,726 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,727 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,828 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,828 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:39,930 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:39,930 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,032 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,032 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,134 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,134 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,236 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,236 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,339 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,340 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,441 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,442 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,545 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,545 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,646 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,646 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,748 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,748 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,849 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,849 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:40,950 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:40,950 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,053 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,054 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,155 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,156 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,258 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,259 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,361 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,361 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,463 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,463 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,566 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,566 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,669 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,669 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,770 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,771 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,873 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,873 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:41,974 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:41,974 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,075 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,076 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,177 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,177 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,279 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,279 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,382 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,382 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,485 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,485 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,588 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,589 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,690 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,690 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,791 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,793 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,895 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,895 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:42,996 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:42,997 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,098 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,098 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,199 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,199 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,301 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,301 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,403 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,404 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,506 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,507 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,608 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,609 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,711 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,711 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,813 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,813 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:43,915 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:43,916 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:44,018 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:44,018 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:44,120 - camera - WARNING - Failed to read frame
+2025-12-18 19:07:44,121 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 19:07:44,161 - camera - INFO - Camera released
+2025-12-18 19:07:44,161 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-18 19:07:49,429 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 19:07:49,429 - camera - INFO - Connecting to local camera device 0
+2025-12-18 19:07:50,499 - camera - INFO - Camera connected successfully
+2025-12-18 19:07:50,499 - __main__ - INFO - Camera resolution: (640, 480)
+2025-12-18 19:07:50,499 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-18 19:07:50,528 - detector - INFO - Model loaded successfully on cpu
+2025-12-18 19:07:50,674 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:07:50,674 - alert_system - INFO - Detection saved: data\detections\human_20251218_190750.jpg
+2025-12-18 19:08:20,767 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:08:20,767 - alert_system - INFO - Detection saved: data\detections\human_20251218_190820.jpg
+2025-12-18 19:08:50,819 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:08:50,827 - alert_system - INFO - Detection saved: data\detections\human_20251218_190850.jpg
+2025-12-18 19:09:20,872 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:09:20,872 - alert_system - INFO - Detection saved: data\detections\human_20251218_190920.jpg
+2025-12-18 19:09:50,883 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:09:50,883 - alert_system - INFO - Detection saved: data\detections\human_20251218_190950.jpg
+2025-12-18 19:10:20,894 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:10:20,894 - alert_system - INFO - Detection saved: data\detections\human_20251218_191020.jpg
+2025-12-18 19:10:50,951 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:10:50,951 - alert_system - INFO - Detection saved: data\detections\human_20251218_191050.jpg
+2025-12-18 19:11:08,529 - camera - INFO - Camera released
+2025-12-18 19:11:08,534 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-18 19:13:01,346 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 19:13:01,346 - camera - INFO - Connecting to local camera device 0
+2025-12-18 19:13:02,543 - camera - INFO - Camera connected successfully
+2025-12-18 19:13:02,543 - __main__ - INFO - Camera resolution: (640, 480)
+2025-12-18 19:13:02,543 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-18 19:13:02,571 - detector - INFO - Model loaded successfully on cpu
+2025-12-18 19:13:02,703 - alert_system - INFO -    Detected objects: ['person']
+2025-12-18 19:13:02,703 - alert_system - INFO - Detection saved: data\detections\human_20251218_191302.jpg
+2025-12-18 19:13:32,716 - alert_system - INFO -    Detected objects: ['person', 'person']
+2025-12-18 19:13:32,719 - alert_system - INFO - Detection saved: data\detections\human_20251218_191332.jpg
+2025-12-18 19:13:45,372 - camera - INFO - Camera released
+2025-12-18 19:13:45,372 - __main__ - INFO - Intrusion Detection System stopped
+<<<<<<< HEAD
+2025-12-18 23:08:10,724 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 23:08:10,727 - camera - INFO - Connecting to local camera device 0
+2025-12-18 23:08:10,876 - camera - ERROR - Failed to open camera
+2025-12-18 23:08:10,876 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-18 23:08:52,187 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 23:08:52,189 - camera - INFO - Connecting to local camera device 0
+2025-12-18 23:08:54,963 - camera - INFO - Camera connected successfully
+2025-12-18 23:08:54,965 - __main__ - INFO - Camera resolution: (1280, 720)
+2025-12-18 23:08:54,965 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-18 23:08:57,603 - detector - INFO - Model loaded successfully on cpu
+2025-12-18 23:08:57,825 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:08:58,222 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:08:58,320 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:08:59,414 - camera - WARNING - Failed to read frame
+2025-12-18 23:08:59,414 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:00,151 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:00,213 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:02,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:04,167 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:04,168 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:05,270 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:05,270 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:06,371 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:06,372 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:07,475 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:07,476 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:08,578 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:08,579 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:09,683 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:09,683 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:10,640 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:10,640 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:11,554 - camera - WARNING - Failed to read frame
+2025-12-18 23:10:11,555 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-18 23:10:11,845 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:12,082 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:12,571 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:13,065 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:13,533 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:13,967 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:14,363 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:14,656 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:14,864 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:15,030 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:15,362 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:15,540 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:16,070 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:16,440 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:16,599 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:16,758 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:16,996 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:17,158 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:17,399 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:17,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:17,797 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:17,962 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:18,120 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:18,277 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:18,438 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:18,605 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:18,758 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:19,076 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:19,316 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:19,555 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:19,798 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:19,956 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:20,117 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:20,381 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:21,249 - camera - INFO - Camera released
+2025-12-18 23:10:21,331 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-18 23:10:55,468 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 23:10:55,469 - camera - INFO - Connecting to local camera device 0
+2025-12-18 23:10:57,528 - camera - INFO - Camera connected successfully
+2025-12-18 23:10:57,528 - __main__ - INFO - Camera resolution: (1280, 720)
+2025-12-18 23:10:57,529 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-18 23:10:57,829 - detector - INFO - Model loaded successfully on cpu
+2025-12-18 23:10:58,094 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:58,961 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:59,452 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:59,550 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:59,651 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:59,849 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:10:59,902 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,002 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,104 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,198 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,251 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,353 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,454 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,551 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,654 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,751 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,854 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:00,950 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,067 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,135 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,215 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,282 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,356 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,439 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,527 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,610 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,693 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,776 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,855 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:01,945 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,026 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,110 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,192 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,274 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,359 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,444 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,528 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,613 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,783 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,857 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:02,942 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,026 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,110 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,189 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,274 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,354 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,439 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,524 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,606 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,770 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,857 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:03,939 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,020 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,106 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,191 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,271 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,355 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,439 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,526 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,606 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,772 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,857 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:04,939 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,020 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,106 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,187 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,270 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,355 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,438 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,522 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,605 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,774 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,852 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:05,936 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,018 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,108 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,188 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,277 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,354 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,439 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,523 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,607 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,689 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,774 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,851 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:06,938 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,019 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,105 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,190 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,270 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,356 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,437 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,518 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,605 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,769 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,856 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:07,936 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,022 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,102 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,187 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,269 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,355 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,436 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,522 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,604 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,684 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,771 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,852 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:08,934 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,020 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,100 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,188 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,268 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,355 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,434 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,520 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,600 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,687 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,768 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,853 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:09,933 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,016 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,102 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,189 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,263 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,333 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,409 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,560 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,636 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,710 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,785 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,860 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:10,936 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,010 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,084 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,159 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,233 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,308 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,384 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,463 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,537 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,610 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,686 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,760 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,833 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,907 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:11,983 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,068 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,150 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,235 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,317 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,403 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,484 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,565 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,652 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,732 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,900 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:12,986 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,066 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,155 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,238 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,336 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,419 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,572 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,653 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,734 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:13,904 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,037 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,161 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,235 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,320 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,402 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,566 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,652 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,732 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:14,824 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,079 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,153 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,237 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,405 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,660 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,737 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,901 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:15,994 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,086 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,238 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,318 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,403 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,525 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,652 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,736 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:16,916 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,009 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,161 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,236 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,319 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,403 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,489 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,653 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,736 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,900 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:17,987 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,068 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,155 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,319 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,402 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,580 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,735 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:18,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,033 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,200 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,332 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,490 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,573 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,661 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,747 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,815 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:19,912 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,157 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,237 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,316 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,397 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,481 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,565 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,654 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,818 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:20,985 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,069 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,154 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,569 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,660 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,820 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:21,990 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,152 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,231 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,315 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,401 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,651 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:22,759 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,001 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,188 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,338 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,488 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,663 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,809 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:23,887 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,060 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,215 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,414 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,532 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,612 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,771 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,851 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:24,929 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,018 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,098 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,171 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,252 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,331 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,409 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,635 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,756 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,893 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:25,970 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,052 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,131 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,215 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,294 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,483 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,608 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,692 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,773 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,849 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:26,930 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,015 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,235 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,331 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,412 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,488 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,647 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,728 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,806 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,901 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:27,980 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,130 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,210 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,288 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,367 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,450 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,551 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,769 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:28,850 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,008 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,088 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,182 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,330 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,487 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,565 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,645 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,727 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,807 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,888 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:29,969 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,044 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,126 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,207 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,287 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,367 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,449 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,529 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,608 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,690 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,766 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,846 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:30,929 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,008 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,087 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,168 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,330 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,406 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,487 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,569 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,645 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,726 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,807 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,886 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:31,966 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,047 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,126 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,206 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,287 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,368 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,448 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,524 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,605 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,687 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,768 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,848 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:32,924 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,004 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,086 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,167 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,247 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,326 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,411 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,495 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,573 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,656 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,731 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,815 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,890 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:33,968 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,212 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,346 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,449 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,532 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,685 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,766 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,845 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:34,924 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,004 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,089 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,168 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,329 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,748 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:35,889 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,060 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,133 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,205 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,366 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,447 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,529 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,608 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,688 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,768 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,848 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:36,927 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,088 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,165 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,246 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,326 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,406 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,566 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,646 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,726 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,805 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,885 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:37,966 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,044 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,128 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,206 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,285 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,365 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,443 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,527 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,606 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,828 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:38,935 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,100 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,185 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,329 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,416 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,647 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,731 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,811 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,887 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:39,966 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,043 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,128 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,206 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,283 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,364 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,448 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,527 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,606 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,686 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,766 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,846 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:40,927 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:11:41,442 - camera - INFO - Camera released
+2025-12-18 23:11:41,447 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-18 23:12:39,379 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-18 23:12:39,380 - camera - INFO - Connecting to local camera device 0
+2025-12-18 23:12:40,726 - camera - INFO - Camera connected successfully
+2025-12-18 23:12:40,727 - __main__ - INFO - Camera resolution: (1280, 720)
+2025-12-18 23:12:40,728 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-18 23:12:40,862 - detector - INFO - Model loaded successfully on cpu
+2025-12-18 23:12:41,261 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:41,921 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,172 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,247 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,332 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,499 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,581 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,666 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,747 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,833 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,914 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:42,997 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,082 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,164 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,250 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,330 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,413 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,500 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,581 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,666 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,765 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,834 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:43,918 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,001 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,083 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,170 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,256 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,384 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,525 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,666 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,749 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,843 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:44,923 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,008 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,082 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,167 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,330 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,414 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,499 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,589 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,708 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,838 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:45,925 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,007 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,172 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,332 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,417 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,581 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,675 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,836 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,920 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:46,999 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,081 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,161 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,246 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,332 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,420 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,504 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,665 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,748 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,832 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:47,911 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,006 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,086 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,171 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,250 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,333 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,416 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,494 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,575 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,659 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,743 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,827 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,913 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:48,997 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,077 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,162 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,243 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,329 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,413 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,493 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,580 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,664 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,742 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,833 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:49,924 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,008 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,083 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,169 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,243 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,329 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,413 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,497 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,586 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,667 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,743 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,827 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,920 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:50,995 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,080 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,160 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,244 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,328 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,414 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,494 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,583 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,667 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,745 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,827 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,911 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:51,995 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,084 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,170 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,261 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,339 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,417 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,506 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,587 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,663 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,749 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,824 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:52,910 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,001 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,078 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,166 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,253 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,339 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,412 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,496 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,576 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,661 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,744 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,828 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,907 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:53,995 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,078 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,157 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,242 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,327 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,422 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,497 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,587 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,663 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,742 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,827 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,911 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:54,992 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,077 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,161 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,242 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,327 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,411 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,492 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,577 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,662 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,743 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,828 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,911 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:55,993 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,073 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,158 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,251 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,419 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,500 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,576 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,667 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,747 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,829 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,908 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:56,994 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,073 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,159 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,245 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,324 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,411 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,495 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,578 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,673 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,743 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,827 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,908 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:57,992 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,077 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,161 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,242 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,326 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,495 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,576 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,665 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,762 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,913 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:58,992 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,084 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,167 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,249 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,349 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,496 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,662 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,750 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,830 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,915 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:12:59,997 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,085 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,241 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,325 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,493 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,579 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,661 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,747 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:00,842 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,017 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,163 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,244 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,345 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,496 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,582 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,660 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,780 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:01,910 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,013 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,162 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,247 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,330 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,409 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,489 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,573 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,658 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,742 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,829 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:02,999 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,081 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,243 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,328 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,419 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,572 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,659 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,739 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,827 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,907 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:03,992 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,072 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,159 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,322 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,408 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,488 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,575 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,663 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,836 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:04,936 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,089 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,168 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,336 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,419 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,593 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,743 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,833 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:05,991 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,076 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,164 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,248 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,408 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,491 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,573 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,659 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,738 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,824 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,910 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:06,994 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,078 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,158 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,240 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,320 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,405 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,490 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,574 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,654 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,740 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,824 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,904 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:07,989 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,072 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,163 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,238 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,324 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,407 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,506 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,714 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,826 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:08,995 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,103 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,244 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,407 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,493 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,571 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,658 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,740 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,822 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,907 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:09,987 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,072 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,157 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,243 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,323 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,405 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,572 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,652 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,742 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,821 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,902 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:10,988 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,073 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,160 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,240 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,322 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,408 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,488 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,572 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,659 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,746 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,835 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:11,992 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,075 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,155 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,241 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,320 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,406 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,571 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,655 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,738 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,906 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:12,989 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,069 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,158 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,240 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,319 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,405 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,489 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,570 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,653 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,739 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,817 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,908 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:13,988 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,072 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,151 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,243 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,328 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,408 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,568 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,654 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,736 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,820 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,900 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:14,986 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,071 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,159 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,241 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,321 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,406 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,572 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,655 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,739 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,818 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,904 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:15,985 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,071 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,152 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,239 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,317 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,401 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,655 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,733 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,904 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:16,982 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,068 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,172 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,320 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,406 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,483 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,568 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,652 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,747 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,905 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:17,983 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,069 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,149 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,242 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,319 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,574 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,652 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,735 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,818 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,904 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:18,982 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,070 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,152 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,232 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,319 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,400 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,487 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,566 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,653 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,734 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,818 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,902 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:19,984 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,069 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,150 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,238 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,316 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,404 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,489 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,568 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,654 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,736 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,901 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:20,985 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,069 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,150 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,238 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,315 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,403 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,481 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,566 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,651 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,732 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,817 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,905 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:21,992 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,064 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,150 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,231 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,315 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,403 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,484 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,564 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,649 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,741 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,819 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,908 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:22,982 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,067 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,147 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,230 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,317 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,402 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,564 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,648 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,734 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,817 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,898 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:23,983 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,068 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,151 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,230 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,315 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,398 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,482 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,646 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,734 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,818 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,900 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:24,982 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,062 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,152 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,231 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,316 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,401 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,480 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,567 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,647 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,737 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,813 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,900 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:25,981 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,066 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,147 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,242 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,331 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,485 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,564 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,675 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:26,898 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,075 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,319 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,430 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,575 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,729 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,905 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:27,981 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,081 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,240 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,344 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,492 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,657 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,736 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,814 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:28,908 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:29,065 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:29,244 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:29,423 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:29,575 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:29,685 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:29,910 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:30,067 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:30,245 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:30,410 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:30,573 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:30,740 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:31,026 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:31,189 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:31,321 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:31,482 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:31,737 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:31,817 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,002 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,154 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,324 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,486 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,735 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,820 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:32,985 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:33,162 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:33,263 - detector - ERROR - Detection error: Numpy is not available
+2025-12-18 23:13:33,977 - camera - INFO - Camera released
+2025-12-18 23:13:33,988 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-19 00:49:17,650 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 00:49:17,669 - camera - INFO - Connecting to local camera device 0
+2025-12-19 00:49:20,129 - camera - INFO - Camera connected successfully
+2025-12-19 00:49:20,136 - __main__ - INFO - Camera resolution: (1280, 720)
+2025-12-19 00:49:20,136 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-19 00:49:20,259 - detector - INFO - Model loaded successfully on cpu
+2025-12-19 00:49:39,607 - alert_system - WARNING - ⚠️  INTRUSION DETECTED - Type: human - Time: 2025-12-19 00:49:39
+2025-12-19 00:49:39,608 - alert_system - INFO -    Detected objects: ['person']
+2025-12-19 00:49:39,633 - alert_system - INFO - Detection saved: data/detections/human_20251219_004939.jpg
+2025-12-19 00:50:09,756 - alert_system - WARNING - ⚠️  INTRUSION DETECTED - Type: human - Time: 2025-12-19 00:50:09
+2025-12-19 00:50:09,760 - alert_system - INFO -    Detected objects: ['person']
+2025-12-19 00:50:09,787 - alert_system - INFO - Detection saved: data/detections/human_20251219_005009.jpg
+2025-12-19 00:50:39,825 - alert_system - WARNING - ⚠️  INTRUSION DETECTED - Type: human - Time: 2025-12-19 00:50:39
+2025-12-19 00:50:39,827 - alert_system - INFO -    Detected objects: ['person']
+2025-12-19 00:50:39,853 - alert_system - INFO - Detection saved: data/detections/human_20251219_005039.jpg
+2025-12-19 00:51:08,391 - camera - INFO - Camera released
+2025-12-19 00:51:08,397 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-19 01:12:03,012 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 01:12:03,015 - camera - INFO - Connecting to Android camera at http://192.0.0.4:8080/video
+2025-12-19 01:12:03,134 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
+2025-12-19 01:12:03,134 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-19 01:12:32,358 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 01:12:32,360 - camera - INFO - Connecting to Android camera at http://192.0.0.4:8080
+2025-12-19 01:12:32,383 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
+2025-12-19 01:12:32,383 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-19 01:18:39,873 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 01:18:39,875 - camera - INFO - Connecting to Android camera at http://192.168.1.2:8080/video
+2025-12-19 01:18:39,914 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
+2025-12-19 01:18:39,916 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-19 01:19:10,437 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 01:19:10,439 - camera - INFO - Connecting to Android camera at http://192.168.1.2:8080
+2025-12-19 01:19:10,467 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
+2025-12-19 01:19:10,468 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-19 01:20:33,440 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 01:20:33,440 - camera - ERROR - Error connecting to camera: invalid literal for int() with base 10: 'rtsp://192.168.1.2:8080/h264.sdp'
+2025-12-19 01:20:33,441 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-19 01:22:39,956 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-19 01:22:39,957 - camera - INFO - Connecting to Android camera at http://66.77.88.99:8080
+2025-12-19 01:22:39,969 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
+2025-12-19 01:22:39,969 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+=======
+2025-12-28 12:25:17,509 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 12:25:17,510 - camera - INFO - Connecting to local camera device 0
+2025-12-28 12:25:19,021 - camera - INFO - Camera connected successfully
+2025-12-28 12:25:19,021 - __main__ - INFO - Camera resolution: (640, 480)
+2025-12-28 12:25:19,021 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 12:25:19,064 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 12:25:19,322 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 12:25:19,328 - alert_system - INFO - Detection saved: data\detections\human_20251228_122519.jpg
+2025-12-28 12:25:49,327 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 12:25:49,327 - alert_system - INFO - Detection saved: data\detections\human_20251228_122549.jpg
+2025-12-28 12:26:19,470 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 12:26:19,486 - alert_system - INFO - Detection saved: data\detections\human_20251228_122619.jpg
+2025-12-28 12:26:21,624 - camera - INFO - Camera released
+2025-12-28 12:26:21,624 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:03:27,343 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:03:27,343 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:03:27,615 - camera - INFO - Camera connected successfully
+2025-12-28 14:03:27,616 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:03:27,616 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:03:27,666 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:03:36,194 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:03:36,200 - alert_system - INFO - Detection saved: data\detections\human_20251228_140336.jpg
+2025-12-28 14:04:06,208 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:04:06,213 - alert_system - INFO - Detection saved: data\detections\human_20251228_140406.jpg
+2025-12-28 14:04:36,243 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:04:36,248 - alert_system - INFO - Detection saved: data\detections\human_20251228_140436.jpg
+2025-12-28 14:05:06,306 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:05:06,311 - alert_system - INFO - Detection saved: data\detections\human_20251228_140506.jpg
+2025-12-28 14:05:06,823 - camera - INFO - Camera released
+2025-12-28 14:05:06,827 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:05:54,163 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:05:54,163 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:05:54,263 - camera - INFO - Camera connected successfully
+2025-12-28 14:05:54,263 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:05:54,264 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:05:54,307 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:05:54,435 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:05:54,439 - alert_system - INFO - Detection saved: data\detections\human_20251228_140554.jpg
+2025-12-28 14:06:24,507 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:06:24,511 - alert_system - INFO - Detection saved: data\detections\human_20251228_140624.jpg
+2025-12-28 14:06:27,531 - camera - INFO - Camera released
+2025-12-28 14:06:27,535 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:13:43,487 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:13:43,487 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:13:43,571 - camera - INFO - Camera connected successfully
+2025-12-28 14:13:43,571 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:13:43,572 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:13:43,606 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:13:43,606 - detector - INFO - Inference size: 416x416
+2025-12-28 14:13:43,607 - __main__ - INFO - Edge optimization: processing every 2 frame(s)
+2025-12-28 14:13:43,692 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:13:43,697 - alert_system - INFO - Detection saved: data\detections\human_20251228_141343.jpg
+2025-12-28 14:14:15,098 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:14:15,103 - alert_system - INFO - Detection saved: data\detections\human_20251228_141415.jpg
+2025-12-28 14:14:28,005 - camera - INFO - Camera released
+2025-12-28 14:14:28,009 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:26:29,022 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:26:29,022 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:26:29,150 - camera - INFO - Camera connected successfully
+2025-12-28 14:26:29,151 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:26:29,151 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:26:29,183 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:26:29,183 - detector - INFO - Inference size: 416x416
+2025-12-28 14:26:29,183 - detector - INFO - Perimeter zone set: 4 points
+2025-12-28 14:26:29,183 - __main__ - INFO - Perimeter zone: [[0.2, 0.3], [0.8, 0.3], [0.8, 0.9], [0.2, 0.9]]
+2025-12-28 14:26:29,184 - __main__ - INFO - Edge optimization: processing every 2 frame(s)
+2025-12-28 14:26:29,284 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:26:29,290 - alert_system - INFO - Detection saved: data\detections\human_20251228_142629.jpg
+2025-12-28 14:26:59,393 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:26:59,398 - alert_system - INFO - Detection saved: data\detections\human_20251228_142659.jpg
+2025-12-28 14:27:29,440 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:27:29,445 - alert_system - INFO - Detection saved: data\detections\human_20251228_142729.jpg
+2025-12-28 14:27:34,715 - camera - INFO - Camera released
+2025-12-28 14:27:34,718 - __main__ - INFO - Intrusion Detection System stopped
+>>>>>>> c60d8e1 (add: perimeter detection)
+2025-12-28 15:35:26,879 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 15:35:26,879 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 15:35:41,187 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
+2025-12-28 15:35:41,188 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+2025-12-28 15:35:54,200 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 15:35:54,200 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 15:35:54,389 - camera - INFO - Camera connected successfully
+2025-12-28 15:35:54,390 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 15:35:54,390 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 15:35:54,420 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 15:35:54,420 - detector - INFO - Inference size: 416x416
+2025-12-28 15:35:54,420 - detector - INFO - Perimeter zone set: 4 points
+2025-12-28 15:35:54,420 - __main__ - INFO - Perimeter zone: [[0.2, 0.3], [0.8, 0.3], [0.8, 0.9], [0.2, 0.9]]
+2025-12-28 15:35:54,422 - __main__ - INFO - Edge optimization: processing every 2 frame(s)
+2025-12-28 15:36:14,219 - camera - INFO - Camera released
+2025-12-28 15:36:14,224 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 18:59:29,780 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 18:59:29,780 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 18:59:30,039 - camera - INFO - Camera connected successfully
+2025-12-28 18:59:30,040 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 18:59:30,040 - detector - INFO - Loading YOLO model from backend/models/yolov8n.pt
+2025-12-28 18:59:30,095 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 18:59:30,095 - detector - INFO - Inference size: 416x416
+2025-12-28 18:59:30,095 - detector - INFO - Perimeter zone set: 4 points
+2025-12-28 18:59:30,096 - __main__ - INFO - Perimeter zone: [[0.2, 0.3], [0.8, 0.3], [0.8, 0.9], [0.2, 0.9]]
+2025-12-28 18:59:30,096 - __main__ - INFO - Edge optimization: processing every 2 frame(s)
+2025-12-28 18:59:55,832 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 18:59:55,832 - alert_system - INFO - Detection saved: backend\data\detections\human_20251228_185955.jpg
+2025-12-28 19:00:25,838 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 19:00:25,838 - alert_system - INFO - Detection saved: backend\data\detections\human_20251228_190025.jpg
+2025-12-28 19:00:43,047 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,047 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,158 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,158 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,260 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,261 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,362 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,363 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,464 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,465 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,567 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,568 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,669 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,669 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,771 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,771 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,872 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,873 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:43,973 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:43,974 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,075 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,075 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,176 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,177 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,278 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,279 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,381 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,381 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,482 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,482 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,583 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,583 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,684 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,684 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,785 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,785 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,886 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,886 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:44,988 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:44,988 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,089 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,089 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,191 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,191 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,292 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,292 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,392 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,392 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,493 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,493 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,594 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,594 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,697 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,697 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,799 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,799 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:45,902 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:45,902 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,003 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,003 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,104 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,104 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,205 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,205 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,306 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,306 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,408 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,408 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,508 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,508 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,609 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,609 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,711 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,711 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,813 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,813 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:46,914 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:46,914 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,015 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,015 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,116 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,116 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,216 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,216 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,317 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,317 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,418 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,418 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,519 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,519 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,621 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,621 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,722 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,722 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,823 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,823 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:47,924 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:47,924 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,025 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,026 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,127 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,127 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,228 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,228 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,328 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,329 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,431 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,432 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,533 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,534 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,636 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,636 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,738 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,738 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,840 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,841 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:48,942 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:48,942 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,044 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,044 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,146 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,147 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,249 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,249 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,350 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,350 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,452 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,452 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,554 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,554 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,656 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,657 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,758 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,759 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,860 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,861 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:49,963 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:49,964 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,066 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,066 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,168 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,169 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,271 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,271 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,372 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,373 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,474 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,474 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,575 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,575 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,677 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,678 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,779 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,780 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,882 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,882 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:50,984 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:50,984 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,085 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,086 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,187 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,188 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,289 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,290 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,391 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,392 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,492 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,493 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,595 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,595 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,695 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,695 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,796 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,796 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,897 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:51,897 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:51,999 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,000 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,101 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,101 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,204 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,204 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,305 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,306 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,407 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,407 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,509 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,509 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,610 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,610 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,712 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,713 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,815 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,815 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:52,916 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:52,916 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,017 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,017 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,118 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,118 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,219 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,219 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,320 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,320 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,421 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,421 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,521 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,521 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,622 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,622 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,724 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,724 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,827 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,827 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:53,929 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:53,930 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,031 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,031 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,132 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,132 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,234 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,234 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,334 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,334 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,435 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,435 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,536 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,536 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,637 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,637 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,738 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,738 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,838 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,838 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:54,939 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:54,939 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,040 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,040 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,141 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,142 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,243 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,244 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,345 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,346 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,447 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,447 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,548 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,548 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,649 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,649 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,750 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,750 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,851 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,851 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:55,952 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:55,952 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,052 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,052 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,153 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,153 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,254 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,254 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,355 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,355 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,455 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,455 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,556 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,556 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,656 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,656 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,758 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,758 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,859 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,859 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:56,960 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:56,961 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,062 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,062 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,163 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,163 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,264 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,264 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,365 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,365 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,466 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,466 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,568 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,568 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,670 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,671 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,772 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,772 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,874 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,875 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:57,976 - camera - WARNING - Failed to read frame
+2025-12-28 19:00:57,976 - __main__ - WARNING - Failed to read frame, retrying...
+2025-12-28 19:00:58,051 - camera - INFO - Camera released
+2025-12-28 19:00:58,055 - __main__ - INFO - Intrusion Detection System stopped
