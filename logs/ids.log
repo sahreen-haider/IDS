@@ -184,6 +184,7 @@
 2025-12-18 19:13:32,719 - alert_system - INFO - Detection saved: data\detections\human_20251218_191332.jpg
 2025-12-18 19:13:45,372 - camera - INFO - Camera released
 2025-12-18 19:13:45,372 - __main__ - INFO - Intrusion Detection System stopped
+<<<<<<< HEAD
 2025-12-18 23:08:10,724 - __main__ - INFO - Intrusion Detection System initialized
 2025-12-18 23:08:10,727 - camera - INFO - Connecting to local camera device 0
 2025-12-18 23:08:10,876 - camera - ERROR - Failed to open camera
@@ -1296,3 +1297,79 @@
 2025-12-19 01:22:39,957 - camera - INFO - Connecting to Android camera at http://66.77.88.99:8080
 2025-12-19 01:22:39,969 - camera - ERROR - Failed to open camera stream; ensure MJPEG endpoint like /video or use /shot.jpg
 2025-12-19 01:22:39,969 - __main__ - ERROR - Failed to connect to camera. Check your configuration.
+=======
+2025-12-28 12:25:17,509 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 12:25:17,510 - camera - INFO - Connecting to local camera device 0
+2025-12-28 12:25:19,021 - camera - INFO - Camera connected successfully
+2025-12-28 12:25:19,021 - __main__ - INFO - Camera resolution: (640, 480)
+2025-12-28 12:25:19,021 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 12:25:19,064 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 12:25:19,322 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 12:25:19,328 - alert_system - INFO - Detection saved: data\detections\human_20251228_122519.jpg
+2025-12-28 12:25:49,327 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 12:25:49,327 - alert_system - INFO - Detection saved: data\detections\human_20251228_122549.jpg
+2025-12-28 12:26:19,470 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 12:26:19,486 - alert_system - INFO - Detection saved: data\detections\human_20251228_122619.jpg
+2025-12-28 12:26:21,624 - camera - INFO - Camera released
+2025-12-28 12:26:21,624 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:03:27,343 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:03:27,343 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:03:27,615 - camera - INFO - Camera connected successfully
+2025-12-28 14:03:27,616 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:03:27,616 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:03:27,666 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:03:36,194 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:03:36,200 - alert_system - INFO - Detection saved: data\detections\human_20251228_140336.jpg
+2025-12-28 14:04:06,208 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:04:06,213 - alert_system - INFO - Detection saved: data\detections\human_20251228_140406.jpg
+2025-12-28 14:04:36,243 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:04:36,248 - alert_system - INFO - Detection saved: data\detections\human_20251228_140436.jpg
+2025-12-28 14:05:06,306 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:05:06,311 - alert_system - INFO - Detection saved: data\detections\human_20251228_140506.jpg
+2025-12-28 14:05:06,823 - camera - INFO - Camera released
+2025-12-28 14:05:06,827 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:05:54,163 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:05:54,163 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:05:54,263 - camera - INFO - Camera connected successfully
+2025-12-28 14:05:54,263 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:05:54,264 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:05:54,307 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:05:54,435 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:05:54,439 - alert_system - INFO - Detection saved: data\detections\human_20251228_140554.jpg
+2025-12-28 14:06:24,507 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:06:24,511 - alert_system - INFO - Detection saved: data\detections\human_20251228_140624.jpg
+2025-12-28 14:06:27,531 - camera - INFO - Camera released
+2025-12-28 14:06:27,535 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:13:43,487 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:13:43,487 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:13:43,571 - camera - INFO - Camera connected successfully
+2025-12-28 14:13:43,571 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:13:43,572 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:13:43,606 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:13:43,606 - detector - INFO - Inference size: 416x416
+2025-12-28 14:13:43,607 - __main__ - INFO - Edge optimization: processing every 2 frame(s)
+2025-12-28 14:13:43,692 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:13:43,697 - alert_system - INFO - Detection saved: data\detections\human_20251228_141343.jpg
+2025-12-28 14:14:15,098 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:14:15,103 - alert_system - INFO - Detection saved: data\detections\human_20251228_141415.jpg
+2025-12-28 14:14:28,005 - camera - INFO - Camera released
+2025-12-28 14:14:28,009 - __main__ - INFO - Intrusion Detection System stopped
+2025-12-28 14:26:29,022 - __main__ - INFO - Intrusion Detection System initialized
+2025-12-28 14:26:29,022 - camera - INFO - Connecting to Android camera at http://192.168.1.9:8080/video
+2025-12-28 14:26:29,150 - camera - INFO - Camera connected successfully
+2025-12-28 14:26:29,151 - __main__ - INFO - Camera resolution: (1920, 1080)
+2025-12-28 14:26:29,151 - detector - INFO - Loading YOLO model from models/yolov8n.pt
+2025-12-28 14:26:29,183 - detector - INFO - Model loaded successfully on cpu
+2025-12-28 14:26:29,183 - detector - INFO - Inference size: 416x416
+2025-12-28 14:26:29,183 - detector - INFO - Perimeter zone set: 4 points
+2025-12-28 14:26:29,183 - __main__ - INFO - Perimeter zone: [[0.2, 0.3], [0.8, 0.3], [0.8, 0.9], [0.2, 0.9]]
+2025-12-28 14:26:29,184 - __main__ - INFO - Edge optimization: processing every 2 frame(s)
+2025-12-28 14:26:29,284 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:26:29,290 - alert_system - INFO - Detection saved: data\detections\human_20251228_142629.jpg
+2025-12-28 14:26:59,393 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:26:59,398 - alert_system - INFO - Detection saved: data\detections\human_20251228_142659.jpg
+2025-12-28 14:27:29,440 - alert_system - INFO -    Detected objects: ['person']
+2025-12-28 14:27:29,445 - alert_system - INFO - Detection saved: data\detections\human_20251228_142729.jpg
+2025-12-28 14:27:34,715 - camera - INFO - Camera released
+2025-12-28 14:27:34,718 - __main__ - INFO - Intrusion Detection System stopped
+>>>>>>> c60d8e1 (add: perimeter detection)

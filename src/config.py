@@ -91,3 +91,29 @@ class Config:
     def show_window(self) -> bool:
         """Whether to show display window"""
         return self.get('display.show_window', True)
+    
+    @property
+    def frame_skip(self) -> int:
+        """Get frame skip rate for edge optimization"""
+        return self.get('detection.frame_skip', 2)
+    
+    @property
+    def use_half_precision(self) -> bool:
+        """Whether to use half precision inference"""
+        return self.get('detection.use_half_precision', False)
+    
+    @property
+    def inference_size(self) -> int:
+        """Get inference image size"""
+        return self.get('detection.inference_size', 416)
+    
+    @property
+    def perimeter_zone(self) -> list:
+        """Get perimeter zone points"""
+        # Default to full frame if not specified
+        return self.get('detection.perimeter_zone', [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]])
+    
+    @property
+    def enable_perimeter(self) -> bool:
+        """Whether perimeter detection is enabled"""
+        return self.get('detection.enable_perimeter', True)

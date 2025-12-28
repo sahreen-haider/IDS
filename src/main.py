@@ -71,12 +71,15 @@ def main():
     print("✓ Camera connected")
     logger.info(f"Camera resolution: {camera.get_resolution()}")
     
-    # Initialize detector
+    # Initialize detector with edge optimizations
     detector = IntrusionDetector(
         model_path=config.model_weights,
         target_classes=config.target_classes,
         confidence_threshold=config.confidence_threshold,
-        device=config.get('model.device', 'cpu')
+        device=config.get('model.device', 'cpu'),
+        inference_size=config.inference_size,
+        use_half=config.use_half_precision,
+        perimeter_zone=config.perimeter_zone
     )
     
     if not detector.load_model():
@@ -89,6 +92,16 @@ def main():
         return
     
     print("✓ YOLO model loaded")
+    
+    # Set perimeter zone based on camera resolution
+    frame_width, frame_height = camera.get_resolution()
+    detector.set_perimeter_pixels(frame_width, frame_height)
+    
+    if config.enable_perimeter:
+        print("✓ Perimeter detection enabled")
+        logger.info(f"Perimeter zone: {config.perimeter_zone}")
+    else:
+        print("ℹ Perimeter detection disabled")
     
     # Initialize alert system
     alert_system = AlertSystem(
@@ -104,10 +117,15 @@ def main():
     print("Press 'q' to quit, 's' to show statistics")
     print("=" * 60 + "\n")
     
-    # Main detection loop
+    # Main detection loop with frame skipping
     frame_count = 0
+    detection_frame_count = 0
     fps_start_time = time.time()
     fps = 0
+    frame_skip = config.frame_skip
+    last_detections = []  # Cache last detections for skipped frames
+    
+    logger.info(f"Edge optimization: processing every {frame_skip} frame(s)")
     
     try:
         while True:
@@ -118,10 +136,28 @@ def main():
                 time.sleep(0.1)
                 continue
             
-            # Perform detection
-            detections = detector.detect(frame)
+            # Perform detection only on non-skipped frames (edge optimization)
+            if frame_count % frame_skip == 0:
+                all_detections = detector.detect(frame)
+                
+                # Filter by perimeter zone if enabled
+                if config.enable_perimeter:
+                    detections = detector.filter_detections_by_perimeter(all_detections)
+                    # Store both for visualization
+                    last_detections = detections
+                    last_all_detections = all_detections
+                else:
+                    detections = all_detections
+                    last_detections = detections
+                    last_all_detections = all_detections
+                
+                detection_frame_count += 1
+            else:
+                # Use cached detections for display
+                detections = last_detections
+                all_detections = last_all_detections if 'last_all_detections' in locals() else last_detections
             
-            # Check for intrusions
+            # Check for intrusions (only in perimeter)
             if detections:
                 intrusion_type = detector.classify_intrusion_type(detections)
                 alert_triggered = alert_system.trigger_alert(
@@ -129,7 +165,11 @@ def main():
                 )
                 
                 if alert_triggered:
-                    print(f"⚠️  ALERT: {intrusion_type.upper()} intrusion detected!")
+                    print(f"⚠️  ALERT: {intrusion_type.upper()} entered perimeter!")
+            
+            # Draw perimeter zone
+            if config.enable_perimeter and config.show_window:
+                frame = detector.draw_perimeter_zone(frame, color=(0, 255, 0), thickness=2)
             
             # Draw detections on frame
             if config.get('display.draw_boxes', True):
@@ -147,22 +187,37 @@ def main():
                 fps_start_time = time.time()
             
             # Draw FPS and status
+            detection_fps = fps / frame_skip if frame_skip > 0 else fps
             cv2.putText(
                 frame,
-                f"FPS: {fps:.1f}",
+                f"FPS: {fps:.1f} | Det: {detection_fps:.1f}",
                 (10, 30),
                 cv2.FONT_HERSHEY_SIMPLEX,
-                0.7,
+                0.6,
                 (0, 255, 0),
                 2
             )
             
-            if detections:
-                status_text = f"INTRUSION: {len(detections)} object(s)"
-                color = (0, 0, 255)
+            # Show status and counts
+            if config.enable_perimeter and 'all_detections' in locals():
+                outside_count = len(all_detections) - len(detections)
+                if detections:
+                    status_text = f"IN ZONE: {len(detections)} | OUTSIDE: {outside_count}"
+                    color = (0, 0, 255)  # Red when in perimeter
+                else:
+                    if outside_count > 0:
+                        status_text = f"OUTSIDE: {outside_count} object(s)"
+                        color = (0, 255, 255)  # Yellow when outside only
+                    else:
+                        status_text = "STATUS: Monitoring"
+                        color = (0, 255, 0)  # Green when clear
             else:
-                status_text = "STATUS: Monitoring"
-                color = (0, 255, 0)
+                if detections:
+                    status_text = f"DETECTED: {len(detections)} object(s)"
+                    color = (0, 0, 255)
+                else:
+                    status_text = "STATUS: Monitoring"
+                    color = (0, 255, 0)
             
             cv2.putText(
                 frame,

@@ -83,6 +83,46 @@ Edit `config.yaml` to customize:
 - Alert methods (email, sound, save)
 - Detection classes to monitor
 
+### Edge Computing Optimization
+
+The system is optimized for edge devices (Raspberry Pi, embedded systems, etc.):
+
+- **Frame Skip**: Process every Nth frame (`detection.frame_skip: 2`)
+  - `1` = process every frame (slowest, most accurate)
+  - `2` = process every 2nd frame (2x faster, recommended)
+  - `3` = process every 3rd frame (3x faster)
+  
+- **Inference Size**: Smaller input size for YOLO (`detection.inference_size: 416`)
+  - `640` = high quality, slower
+  - `416` = balanced (recommended for edge)
+  - `320` = fastest, lower accuracy
+  
+- **Resolution**: Camera resolution lowered to 640x480 for edge devices
+  
+- **Half Precision**: FP16 inference on GPU (`detection.use_half_precision: true`)
+
+### Perimeter Zone Detection
+
+Only trigger alerts when objects enter a defined perimeter zone:
+
+- **Enable/Disable**: `detection.enable_perimeter: true`
+- **Define Zone**: Set polygon points in normalized coordinates (0.0 to 1.0)
+  ```yaml
+  perimeter_zone:
+    - [0.2, 0.3]   # Top-left (20% from left, 30% from top)
+    - [0.8, 0.3]   # Top-right
+    - [0.8, 0.9]   # Bottom-right
+    - [0.2, 0.9]   # Bottom-left
+  ```
+
+**Zone Examples**:
+- **Full frame**: `[[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]]`
+- **Bottom half**: `[[0.0, 0.5], [1.0, 0.5], [1.0, 1.0], [0.0, 1.0]]`
+- **Center zone**: `[[0.25, 0.25], [0.75, 0.25], [0.75, 0.75], [0.25, 0.75]]`
+- **Doorway**: `[[0.3, 0.2], [0.7, 0.2], [0.7, 1.0], [0.3, 1.0]]`
+
+The perimeter zone is visualized as a green overlay on the video feed.
+
 ## Project Structure
 
 ```
