@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 async def generate_frames():
     """Generate video frames for streaming"""
-    from backend.main import detection_service
+    from ..main import detection_service
     
     if not detection_service or not detection_service.is_running:
         # Return a blank frame if service not running
@@ -75,7 +75,7 @@ async def websocket_endpoint(websocket: WebSocket):
     logger.info("WebSocket client connected")
     
     try:
-        from backend.main import detection_service
+        from ..main import detection_service
         
         while True:
             if detection_service and detection_service.is_running:

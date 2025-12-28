@@ -9,6 +9,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict
 import numpy as np
+import json
+import uuid
 
 
 logger = logging.getLogger(__name__)
@@ -40,6 +42,15 @@ class AlertSystem:
         
         # Create save directory
         self.save_path.mkdir(parents=True, exist_ok=True)
+        
+        # Alert log file
+        self.alert_log_path = Path("backend/data/alerts.json")
+        self.alert_log_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Initialize alert log if it doesn't exist
+        if not self.alert_log_path.exists():
+            with open(self.alert_log_path, 'w') as f:
+                json.dump([], f)
         
         # Track last alert time
         self.last_alert_time = 0
@@ -83,9 +94,13 @@ class AlertSystem:
         logger.warning(f"⚠️  INTRUSION DETECTED - Type: {intrusion_type} - Time: {timestamp}")
         logger.info(f"   Detected objects: {[d['class_name'] for d in detections]}")
         
-        # Save image
+        # Save image and get filename
+        image_path = None
         if self.enable_save:
-            self._save_detection(frame, detections, intrusion_type)
+            image_path = self._save_detection(frame, detections, intrusion_type)
+        
+        # Log to JSON file
+        self._log_alert_to_json(intrusion_type, detections, timestamp, image_path)
         
         # Sound alert
         if self.enable_sound:
@@ -98,8 +113,8 @@ class AlertSystem:
         frame: np.ndarray,
         detections: List[Dict],
         intrusion_type: str
-    ):
-        """Save detection image to disk"""
+    ) -> str:
+        """Save detection image to disk and return relative path"""
         try:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"{intrusion_type}_{timestamp}.jpg"
@@ -107,6 +122,9 @@ class AlertSystem:
             
             cv2.imwrite(str(filepath), frame)
             logger.info(f"Detection saved: {filepath}")
+            
+            # Return relative path from backend directory
+            return f"data/detections/{filename}"
             
         except Exception as e:
             logger.error(f"Failed to save detection image: {e}")
@@ -123,6 +141,50 @@ class AlertSystem:
                 print('\a')
         except Exception as e:
             logger.debug(f"Sound alert failed: {e}")
+    
+    def _log_alert_to_json(
+        self,
+        intrusion_type: str,
+        detections: List[Dict],
+        timestamp: str,
+        image_path: str = None
+    ):
+        """Log alert to JSON file for API consumption"""
+        try:
+            # Read existing alerts
+            with open(self.alert_log_path, 'r') as f:
+                alerts = json.load(f)
+            
+            # Create alert entry
+            alert = {
+                'id': str(uuid.uuid4()),
+                'timestamp': timestamp,
+                'intrusion_type': intrusion_type,
+                'detection_count': len(detections),
+                'image_path': image_path,
+                'detections': [
+                    {
+                        'class_name': d['class_name'],
+                        'confidence': float(d['confidence'])
+                    }
+                    for d in detections
+                ]
+            }
+            
+            # Add to beginning of list (most recent first)
+            alerts.insert(0, alert)
+            
+            # Keep only last 100 alerts
+            alerts = alerts[:100]
+            
+            # Save back to file
+            with open(self.alert_log_path, 'w') as f:
+                json.dump(alerts, f, indent=2)
+            
+            logger.debug(f"Alert logged to {self.alert_log_path}")
+            
+        except Exception as e:
+            logger.error(f"Failed to log alert to JSON: {e}")
     
     def get_statistics(self) -> Dict:
         """

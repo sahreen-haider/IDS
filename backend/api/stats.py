@@ -25,7 +25,7 @@ class AlertStats(BaseModel):
 @router.get("/system", response_model=SystemStats)
 async def get_system_stats():
     """Get real-time system statistics"""
-    from backend.main import detection_service
+    from ..main import detection_service
     
     if not detection_service or not detection_service.is_running:
         return {
@@ -46,7 +46,7 @@ async def get_system_stats():
 @router.get("/alerts", response_model=AlertStats)
 async def get_alert_stats():
     """Get alert statistics"""
-    from backend.main import detection_service
+    from ..main import detection_service
     
     if not detection_service:
         return {
@@ -65,7 +65,7 @@ async def get_alert_stats():
 @router.get("/detections")
 async def get_current_detections():
     """Get current frame detections"""
-    from backend.main import detection_service
+    from ..main import detection_service
     
     if not detection_service or not detection_service.is_running:
         return {"detections": [], "count": 0}

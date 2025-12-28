@@ -1,107 +1,51 @@
-# Intrusion Detection System Configuration
-
-# Camera Settings
-camera:
-  # Android phone IP webcam URL (update with your phone's IP)
-  # url: "http://192.168.1.9:8080/video"
-  # Alternative: use 0 for built-in webcam
-  url: 0
-  
-  # Camera resolution
-  width: 640
-  height: 480
-  
-  # FPS limit
-  fps: 60
-
-# YOLO Model Settings
-model:
-  # Model path (relative to project root)
-  weights: "backend/models/yolov8n.pt"
-  
-  # Confidence threshold (0.0 - 1.0)
-  confidence_threshold: 0.6
-  
-  # IOU threshold for NMS
-  iou_threshold: 0.45
-  
-  # Device: 'cuda', 'cpu', or 'mps'
-  device: "cpu"
-
-# Detection Settings
-detection:
-  # Classes to detect (COCO dataset class names)
-  target_classes:
-    - "person"      # Humans
-    - "dog"         # Animals
-    - "cat"
-    - "bird"
-    - "backpack"    # Unidentified objects
-    - "handbag"
-    - "suitcase"
-  
-  # Perimeter Zone Detection
-  # Define a polygon zone - only trigger alerts when objects enter this area
-  # Points are in normalized coordinates (0.0 to 1.0) relative to frame size
-  # Format: [[x1, y1], [x2, y2], [x3, y3], ...]
-  # Example: Full frame = [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]]
-  # Example: Bottom half = [[0.0, 0.5], [1.0, 0.5], [1.0, 1.0], [0.0, 1.0]]
-  perimeter_zone:
-    - [0.2, 0.3]   # Top-left
-    - [0.8, 0.3]   # Top-right
-    - [0.8, 0.9]   # Bottom-right
-    - [0.2, 0.9]   # Bottom-left
-  
-  # Enable/disable perimeter checking
-  enable_perimeter: true
-  
-  # Cooldown period between alerts (seconds)
-  alert_cooldown: 30
-  
-  # Minimum detection size (% of frame)
-  min_detection_size: 0.01
-  
-  # Edge Computing Optimization
-  # Process every Nth frame (1 = every frame, 2 = every other frame, 3 = every third, etc.)
-  frame_skip: 2
-  
-  # Use half precision (FP16) for faster inference on edge devices
-  use_half_precision: false
-  
-  # Image size for YOLO inference (smaller = faster, recommend 416 or 320 for edge)
-  inference_size: 416
-
-# Alert Settings
 alerts:
-  # Enable different alert types
-  sound: true
-  save_image: true
-  save_video: false
   console_log: true
-  
-  # Save location for captured evidence
-  save_path: "backend/data/detections"
-  
-  # Video recording duration (seconds) when intrusion detected
+  save_image: true
+  save_path: backend/data/detections
+  save_video: false
+  sound: true
   video_duration: 10
-
-# Logging
-logging:
-  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
-  file: "backend/logs/ids.log"
-  max_size_mb: 10
-  backup_count: 5
-
-# Display Settings
+camera:
+  fps: 30
+  height: 480
+  url: "http://192.168.1.9:8080/video"
+  width: 640
+detection:
+  alert_cooldown: 30
+  enable_perimeter: true
+  frame_skip: 2
+  inference_size: 320
+  min_detection_size: 0.01
+  perimeter_zone:
+  - - 0.2
+    - 0.3
+  - - 0.8
+    - 0.3
+  - - 0.8
+    - 0.9
+  - - 0.2
+    - 0.9
+  target_classes:
+  - person
+  - dog
+  - cat
+  - bird
+  - backpack
+  - handbag
+  - suitcase
+  use_half_precision: false
 display:
-  # Show live feed with detections
-  show_window: true
-  
-  # Draw bounding boxes
   draw_boxes: true
-  
-  # Draw confidence scores
   draw_confidence: true
-  
-  # Window name
-  window_name: "IDS - Intrusion Detection System"
+  show_window: true
+  window_name: IDS - Intrusion Detection System
+logging:
+  backup_count: 5
+  file: backend/logs/ids.log
+  level: INFO
+  max_size_mb: 10
+model:
+  confidence_threshold: 0.6
+  device: cpu
+  iou_threshold: 0.45
+  weights: backend/models/yolov8n.pt
