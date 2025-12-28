@@ -40,16 +40,7 @@ detections_path = Path("backend/data/detections")
 detections_path.mkdir(parents=True, exist_ok=True)
 app.mount("/detections", StaticFiles(directory=str(detections_path)), name="detections")
 
-# Mount frontend files
-try:
-    frontend_path = Path("frontend")
-    if frontend_path.exists():
-        app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
-        logger.info("Frontend mounted at /")
-except Exception as e:
-    logger.warning(f"Could not mount frontend: {e}")
-
-# Include routers
+# Include routers FIRST (before mounting frontend)
 app.include_router(config.router, prefix="/api/config", tags=["Configuration"])
 app.include_router(alerts.router, prefix="/api/alerts", tags=["Alerts"])
 app.include_router(stats.router, prefix="/api/stats", tags=["Statistics"])
@@ -148,6 +139,16 @@ async def stop_detection():
 def get_detection_service():
     """Dependency to get detection service"""
     return detection_service
+
+
+# Mount frontend files LAST (after all API routes)
+try:
+    frontend_path = Path("frontend")
+    if frontend_path.exists():
+        app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+        logger.info("Frontend mounted at /")
+except Exception as e:
+    logger.warning(f"Could not mount frontend: {e}")
 
 
 if __name__ == "__main__":
