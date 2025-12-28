@@ -153,6 +153,10 @@ function idsApp() {
                 });
                 
                 if (response.ok) {
+                    const result = await response.json();
+                    // Update local config with server response to ensure sync
+                    this.config.detection.perimeter_zone = result.perimeter_zone;
+                    this.config.detection.enable_perimeter = result.enabled;
                     this.showNotification('Perimeter updated successfully', 'success');
                 } else {
                     this.showNotification('Failed to update perimeter', 'error');
@@ -206,6 +210,8 @@ function idsApp() {
             };
             
             this.config.detection.perimeter_zone = presets[preset];
+            // Automatically enable perimeter when selecting a preset
+            this.config.detection.enable_perimeter = true;
             this.showNotification(`${preset.charAt(0).toUpperCase() + preset.slice(1)} zone preset applied`, 'info');
         },
         
