@@ -30,6 +30,10 @@ class Config:
         
         return config
     
+    def reload(self):
+        """Reload configuration from file"""
+        self.config = self._load_config()
+    
     def get(self, key: str, default: Any = None) -> Any:
         """
         Get configuration value using dot notation

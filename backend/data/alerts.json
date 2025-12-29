@@ -1,1 +1,275 @@
-[]
+[
+  {
+    "id": "6c0b8730-ee99-448b-898b-b80eb891bf19",
+    "timestamp": "2025-12-29 16:03:41",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160341.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.6093456149101257
+      }
+    ]
+  },
+  {
+    "id": "b1d4ad31-2e6b-47c9-9098-139d8d97fe8f",
+    "timestamp": "2025-12-29 16:03:11",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160311.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.6456913948059082
+      }
+    ]
+  },
+  {
+    "id": "09bae013-2f94-49d5-84ea-bf5843ec53eb",
+    "timestamp": "2025-12-29 16:02:41",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160241.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.6063348650932312
+      }
+    ]
+  },
+  {
+    "id": "ecc3cff4-d186-419c-9e81-ff0b24505641",
+    "timestamp": "2025-12-29 16:02:11",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160211.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.6712437272071838
+      }
+    ]
+  },
+  {
+    "id": "a1b9b684-44ea-453e-83b3-7c897ff7a2c2",
+    "timestamp": "2025-12-29 16:01:41",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160141.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8803669214248657
+      }
+    ]
+  },
+  {
+    "id": "0775b343-305a-4bfd-a114-fe448ca29d64",
+    "timestamp": "2025-12-29 16:01:11",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160111.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7516244649887085
+      }
+    ]
+  },
+  {
+    "id": "89a7e2da-4126-4522-b7da-48897cdfd736",
+    "timestamp": "2025-12-29 16:00:54",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160054.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.9140710234642029
+      }
+    ]
+  },
+  {
+    "id": "74cd9f8b-d9c8-4ce7-8b63-cbcda14f2ef1",
+    "timestamp": "2025-12-29 16:00:24",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251229_160024.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8337438106536865
+      }
+    ]
+  },
+  {
+    "id": "623c72a2-f99a-43a3-8eea-1adbd3c23799",
+    "timestamp": "2025-12-28 23:09:41",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230941.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.6710487008094788
+      }
+    ]
+  },
+  {
+    "id": "1fb70cd6-e754-4991-8ded-2bad098025cd",
+    "timestamp": "2025-12-28 23:09:11",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230911.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7568215727806091
+      }
+    ]
+  },
+  {
+    "id": "319384f7-d1b9-4d51-ad89-cebb85eb2018",
+    "timestamp": "2025-12-28 23:09:06",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230906.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8116293549537659
+      }
+    ]
+  },
+  {
+    "id": "1187e329-cf74-4f94-b72f-f651bb675024",
+    "timestamp": "2025-12-28 23:08:47",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230847.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7160829305648804
+      }
+    ]
+  },
+  {
+    "id": "ed502da8-a0a2-44ca-8269-89ce952760d7",
+    "timestamp": "2025-12-28 23:08:17",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230817.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.6854162812232971
+      }
+    ]
+  },
+  {
+    "id": "21ce80dc-fbea-42e5-b24b-084149461e94",
+    "timestamp": "2025-12-28 23:07:47",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230747.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7680960893630981
+      }
+    ]
+  },
+  {
+    "id": "208f1d29-fa09-4c73-8d74-02010b1e73a5",
+    "timestamp": "2025-12-28 23:07:17",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230717.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7894837856292725
+      }
+    ]
+  },
+  {
+    "id": "07e1ac6e-151d-480c-b7b7-e2fe26010dc7",
+    "timestamp": "2025-12-28 23:06:47",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230647.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8075345158576965
+      }
+    ]
+  },
+  {
+    "id": "286f5ef1-02ca-474e-a93e-f82fdefda986",
+    "timestamp": "2025-12-28 23:06:17",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230617.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8769811391830444
+      }
+    ]
+  },
+  {
+    "id": "9dd6f045-c957-4d07-a421-d5862091c7f5",
+    "timestamp": "2025-12-28 23:05:47",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230547.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.8744744658470154
+      }
+    ]
+  },
+  {
+    "id": "106788c1-b2b8-4e78-839b-39d3aef99dc6",
+    "timestamp": "2025-12-28 23:05:17",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230517.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7112956047058105
+      }
+    ]
+  },
+  {
+    "id": "ba12011d-432c-459f-b764-083e11570aca",
+    "timestamp": "2025-12-28 23:05:02",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230502.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.7668302655220032
+      }
+    ]
+  },
+  {
+    "id": "72079168-ad44-4e1a-8f18-70f0dfa36bcc",
+    "timestamp": "2025-12-28 23:04:29",
+    "intrusion_type": "human",
+    "detection_count": 1,
+    "image_path": "data/detections/human_20251228_230429.jpg",
+    "detections": [
+      {
+        "class_name": "person",
+        "confidence": 0.626549243927002
+      }
+    ]
+  }
+]

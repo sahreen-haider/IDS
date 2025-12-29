@@ -132,6 +132,12 @@ class DetectionService:
                     time.sleep(0.1)
                     continue
                 
+                # Recalculate perimeter pixels if needed (e.g., after perimeter zone update)
+                if self.detector.perimeter_pixels is None and self.detector.perimeter_zone:
+                    frame_height, frame_width = frame.shape[:2]
+                    self.detector.set_perimeter_pixels(frame_width, frame_height)
+                    logger.info("Perimeter zone recalculated")
+                
                 # Perform detection with frame skipping
                 if frame_count % frame_skip == 0:
                     all_detections = self.detector.detect(frame)
@@ -222,6 +228,7 @@ class DetectionService:
         self.is_running = True
         self.detection_thread = threading.Thread(target=self.detection_loop, daemon=True)
         self.detection_thread.start()
+        logger.info("Detection service running")
         
         logger.info("Detection service started")
     
@@ -234,11 +241,37 @@ class DetectionService:
         logger.info("Stopping detection service...")
         self.is_running = False
         
-        if self.detection_thread:
-            self.detection_thread.join(timeout=5)
+        # Wait for detection thread to finish
+        if self.detection_thread and self.detection_thread.is_alive():
+            logger.info("Waiting for detection thread to stop...")
+            self.detection_thread.join(timeout=3)
+            if self.detection_thread.is_alive():
+                logger.warning("Detection thread did not stop gracefully")
         
+        # Cleanup resources
         self.cleanup()
         logger.info("Detection service stopped")
+    
+    def cleanup(self):
+        """Cleanup resources"""
+        try:
+            # Close OpenCV windows
+            cv2.destroyAllWindows()
+            
+            # Release camera
+            if self.camera:
+                self.camera.disconnect()
+                logger.info("Camera disconnected")
+            
+            # Clear queues
+            while not self.frame_queue.empty():
+                try:
+                    self.frame_queue.get_nowait()
+                except:
+                    break
+                    
+        except Exception as e:
+            logger.error(f"Error during cleanup: {e}")
     
     def get_latest_frame(self) -> Optional[np.ndarray]:
         """Get the latest processed frame"""

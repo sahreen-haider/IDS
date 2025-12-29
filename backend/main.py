@@ -71,8 +71,14 @@ async def shutdown_event():
     logger.info("Shutting down Intrusion Detection System API...")
     
     if detection_service:
-        detection_service.stop()
-        logger.info("Detection service stopped")
+        try:
+            detection_service.stop()
+            logger.info("Detection service stopped")
+        except Exception as e:
+            logger.error(f"Error stopping detection service: {e}")
+        finally:
+            # Force cleanup
+            detection_service = None
 
 
 @app.get("/")

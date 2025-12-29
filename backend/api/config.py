@@ -103,23 +103,38 @@ async def update_detection_config(detection: DetectionConfig):
         raise HTTPException(status_code=500, detail=f"Failed to update config: {str(e)}")
 
 
+class PerimeterUpdate(BaseModel):
+    perimeter_zone: List[List[float]]
+    enable: bool = True
+
+
 @router.put("/perimeter")
-async def update_perimeter(perimeter_zone: List[List[float]], enable: bool = True):
+async def update_perimeter(perimeter_update: PerimeterUpdate):
     """Update perimeter zone"""
     try:
         with open(CONFIG_PATH, 'r') as f:
             config = yaml.safe_load(f)
         
-        config['detection']['perimeter_zone'] = perimeter_zone
-        config['detection']['enable_perimeter'] = enable
+        config['detection']['perimeter_zone'] = perimeter_update.perimeter_zone
+        config['detection']['enable_perimeter'] = perimeter_update.enable
         
         with open(CONFIG_PATH, 'w') as f:
             yaml.dump(config, f, default_flow_style=False)
         
+        # Update detection service perimeter in real-time
+        from ..main import detection_service
+        if detection_service and detection_service.is_running:
+            # Update detector perimeter zone
+            detection_service.detector.perimeter_zone = perimeter_update.perimeter_zone
+            # Trigger perimeter pixel recalculation on next frame
+            detection_service.detector.perimeter_pixels = None
+            # Update enable_perimeter flag directly in config dict (avoid reload)
+            detection_service.config.config['detection']['enable_perimeter'] = perimeter_update.enable
+        
         return {
-            "message": "Perimeter updated",
-            "perimeter_zone": perimeter_zone,
-            "enabled": enable
+            "message": "Perimeter updated successfully",
+            "perimeter_zone": perimeter_update.perimeter_zone,
+            "enabled": perimeter_update.enable
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to update perimeter: {str(e)}")
